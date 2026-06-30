@@ -22,73 +22,77 @@ No build step is required.
 
 ---
 
-## What it does
+What it does
 
-SAYWHAT combines a 90-second countdown timer, two line-art theatrical figures, mobile-readable speech bubbles, structured A/B dialogue, coherent opening mini-scenes, motif-based passages, post-cameo reactions, joke interludes, final thesis scenes, visual cameos, brawls, and robotic/cartoonish audio.
+SAYWHAT combines:
 
----
+a 90-second countdown timer
+two line-art theatrical figures
+mobile-readable speech bubbles
+structured A/B dialogue
+opening mini-scenes
+motif-based exchanges
+philosophical argument spikes
+bad jokes and failed repairs
+brief truces
+brawls and aftermaths
+visual cameos and passing figures
+robotic/cartoonish audio fragments
+mobile layout and wake-screen safeguards
 
-## Narrative structure
+Each run reshuffles the material. Restarting does not repeat the same play; it restages the same pressure.
+
+Narrative structure
 
 The piece is built as layered procedural theatre rather than a conventional plot.
 
-It moves through entrance grounding, ordinary A/B pressure, motif passages, one extra phase scene, motif memory, cameo disruptions, and final countdown pressure. By the end, the question is no longer what they are waiting for, but what waiting has done to them.
+It moves through entrance grounding, anxious waiting, macho deflection, fragile jokes, sudden aggression, brief moments of agreement, philosophical collapse, passing intrusions, and final countdown pressure.
 
----
+By the end, the question is no longer what the two men are waiting for, but what waiting has done to them.
 
-## Controls
+Controls
+Action	Control
+Start	Click or tap WAIT ALONG
+Restart	Click or tap WAIT SOME MORE
+Mute / unmute	Use the mute button
+Best viewing	Headphones + low light
+Technical notes
 
-| Action        | Control                         |
-| ------------- | ------------------------------- |
-| Start         | Click or tap **WAIT ALONG**     |
-| Restart       | Click or tap **WAIT SOME MORE** |
-| Mute / unmute | Use the mute button             |
-| Best viewing  | Headphones + low light          |
-
----
-
-## Technical notes
-
-SAYWHAT is a **single self-contained HTML file** with embedded CSS, JavaScript, audio assets, Canvas visuals, procedural scheduling, randomised structured dialogue, and mobile readability safeguards.
+SAYWHAT is a single self-contained HTML file with embedded CSS, JavaScript, audio assets, Canvas visuals, procedural scheduling, randomised structured dialogue, and mobile readability safeguards.
 
 Because audio is embedded, the HTML file can be large. This is expected.
 
----
+The piece is designed to run directly in the browser. No external libraries, build tools, package managers, or server-side components are required.
 
-## Deployment on GitHub Pages
+Deployment on GitHub Pages
+Rename the current build to:
+index.html
+Place it in the repository root.
+In GitHub, go to:
+Settings → Pages
+Set the source to the main branch and root folder.
+Save.
 
-1. Rename the current build to `index.html`.
-2. Place it in the repository root.
-3. In GitHub, go to `Settings → Pages`.
-4. Set the source to the main branch and root folder.
-5. Save.
+The page should then be available through GitHub Pages after deployment finishes.
 
----
+Reference
 
-## Credits
+The piece is openly inspired by Samuel Beckett’s Waiting for Godot (1953), especially its use of waiting, repetition, failed departure, unstable authority, and theatrical pressure.
 
-Created by **HrM**.
+SAYWHAT is not an adaptation of the play. It is a browser-based procedural work made after it.
 
-Developed through successive human–AI iterations involving writing, editing, audio treatment, visual design, JavaScript engineering, testing and audit passes.
+Credits
 
----
+Created by HrM.
 
-## Status
+Developed through successive human–AI iterations involving writing, editing, audio treatment, visual design, JavaScript engineering, testing, debugging, and audit passes.
 
-Current status: **active development / near-final audiovisual build**.
+Status
 
-The latest build includes expanded entrance scenes, expanded callbacks, expanded post-cameo and final-thesis banks, motif-memory routing, corrected joke-owner logic, improved Potato Man, improved Sad Clown, refined Tall Blind Cyclops, slower cameo motion, mobile-readable timer and speech, and Pozzo 252 cartoon/robotic audio treatment with end emphasis.
+Current status: active development / near-final audiovisual build.
 
----
+The latest build includes expanded dialogue banks, cold-start opening scenes, brief-truce material, brutal philosophy shutdowns, philosophical argument spikes, joke/reaction banks, final-loop scenes, improved info card layout, mobile readability corrections, wake-screen safeguards, and corrected GitHub Pages deployment structure.
 
-## Licence
+Licence
 
-Add your chosen licence here.
-
-Example:
-
-```text
 © 2026 HrM. All rights reserved.
-```
-
-::: 
